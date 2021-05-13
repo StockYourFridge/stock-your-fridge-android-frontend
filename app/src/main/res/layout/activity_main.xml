@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF6F6"
+    android:visibility="visible"
+    app:backgroundTint="@null"
+    tools:context=".Index"
+    tools:visibility="visible">
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="187dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Login"
+        android:textSize="32dp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/btnSignUp"
+        app:layout_constraintCircleRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="187dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rounded_corners2"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="SignUp"
+        android:textSize="32dp"
+        app:backgroundTint="@null"
+        app:cornerRadius="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="456dp"
+        android:layout_height="467dp"
+        android:layout_marginBottom="72dp"
+        android:src="@drawable/fridge"
+        app:layout_constraintBottom_toTopOf="@+id/btnSignUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.352" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
